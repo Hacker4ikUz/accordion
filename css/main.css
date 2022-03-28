@@ -1,0 +1,31 @@
+@font-face {
+   font-family: 'Gilroy';
+   src: url('../fonts/Gilroy-Medium.ttf');
+}
+body {
+   font-family: 'Gilroy';
+}
+
+button.accordion {
+   background: none;
+   color: #444;
+   cursor: pointer;
+   padding: 18px;
+   width: 100%;
+   text-align: left;
+   border: none;
+   outline: none;
+   transition: 0.4s;
+}
+
+.accordion .active,
+button.accordion:hover{
+   background: #ddd;
+}
+.panel {
+   padding: 0 18px;
+   display: none;
+}
+.panel .show {
+   display: block;
+}
